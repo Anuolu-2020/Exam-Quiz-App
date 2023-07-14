@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  /*padding: 0;*/
+  /*box-sizing: border-box;*/
+}
+
+ html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+/*.display {
+  position: relative;
+  top:45px;
+  left: 270px;
+  margin: 2px;
+  top: 100px;
+  left: 10px;
+}*/
+header{
+	background-color: #005EFF;
+	height: 20px;
+	positon: relative;
+}
+button.cal {
+	width: 100px;
+	height: 18px;
+	left: 10em;
+	position: relative;
+	background-color: gray;
+	color: white;
+	border: 0px;
+}
+.cal:hover{
+	opacity: 0.9;
+}
+
+.question {
+  /*position: relative;*/
+  /*top: 40%;
+  left: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+  position: relative;
+  top: 80px;
+  left: 90px;
+  padding: 1em;
+  height: fit-content;
+  background-color: lightgray;
+  font-size: 18px;
+  max-width: 600px;
+  min-width: 550px;
+}
+.Explanation{
+	width: 50%;
+    height: fit-content;
+	font-size: 15px !important;
+}
+
+#Back {
+	background-color: #00D2A5; 
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 15px 30px;
+	color: white; 
+	position: relative;
+	font-size: 15px !important;
+}
+ 
+ #Back:hover, #Next:hover, #explain:hover, #HideExplain:hover{
+	 opacity: 0.8;
+}
+
+#button {
+	position: relative;
+	font-size: 15px !important;
+    text-align: center;
+	top: 60px;
+	left: 400px;*/
+	 bottom: 700px;
+     left: -50px;
+     /*transform: translateX(-50%);*/ 
+     padding: 0.5em 1em;
+	 margin-top: 3em;
+}
+
+#Next{
+	background-color: #00D2A5; 
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 15px 30px;
+	color: white; 
+	position: relative;
+	font-size: 15px !important;
+}
+ #No{
+	position: relative;
+	top: 70px;
+	left: 30px;
+ }
+ #explain, #HideExplain {
+	background-color: #00D2A5; 
+	border-radius: 10px;
+	border: 2px solid white;
+	padding: 15px 30px;
+	color: white; 
+   	position: relative;
+	font-size: 15px !important;
+	/*top: 500px !important;*/
+}
+.question-grid {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-gap: 1px;
+	padding: 200px;
+	bottom: 90px;
+}
+
+.question-block {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.question-block.selected {
+  color: red;
+}
